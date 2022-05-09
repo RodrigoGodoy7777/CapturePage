@@ -1,0 +1,78 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+}
+
+body {
+    background-image: url(background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: rgb(255, 255, 255);
+    font-family: 'Lato', sans-serif;
+}
+
+div {
+    width: 80%;
+    height: 80%;
+    padding: 40px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.logo {
+    width: 100px;
+}
+
+h1 {
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    margin-top: 19px;
+
+}
+
+h3 {
+    margin-top: 45px;
+    margin-bottom: 17px;
+
+}
+
+.formulario .imputbox {
+    width: 70%;
+    padding: 10px 20px ;
+    margin: 10px auto;
+    display: block;
+    border-radius: 5px;
+    border-color: white;
+    border-style: solid;
+}
+
+.formulario .imputcheck {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.imputcheck {
+    display: block;
+    border: 20px;
+}
+
+.imputcheck:checked {
+    background-color: blue;
+}
+
+.button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px;
+    width: 70%;
+    color: white;
+    background-color: rgb(75, 75, 255);
+    border-radius: 5px;
+    border-color: rgb(75, 75, 255) ;
+}
